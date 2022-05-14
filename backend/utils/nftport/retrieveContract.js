@@ -28,7 +28,7 @@ const retrieveContract = async () => {
         JSON.stringify(response, null, 2)
       );
       if (response.response === "OK") {
-        console.log(`Contract ${CONTRACT_NAME} deployed successfully`);
+        console.log(`Contract ${url} deployed successfully`);
       } else {
         console.log(`Contract ${CONTRACT_NAME} deployment failed`);
       }
